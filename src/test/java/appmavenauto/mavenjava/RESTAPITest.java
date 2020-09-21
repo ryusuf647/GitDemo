@@ -11,10 +11,17 @@ public class RESTAPITest {
 	
 	@Test(priority=2)
 	public void postJira()	{
-		System.out.println("postJira");
+		System.out.println("postJira1");
+		System.out.println("postJira2");
+		System.out.println("postJira3");
 	}
 	
 	@Test(priority=3)
+	public void updateJira()	{
+		System.out.println("Ticket updated!");
+	}
+	
+	@Test(priority=4)
 	public void deleteTweet()	{
 		System.out.println("deleteTweet");
 	}
