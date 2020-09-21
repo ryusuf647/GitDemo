@@ -23,6 +23,11 @@ public class RESTAPITest {
 	
 	@Test(priority=4)
 	public void deleteTweet()	{
-		System.out.println("deleteTweet");
+		System.out.println("Tweet has been deleted.");
+	}
+	
+	@Test(priority=5)
+	public void sysRestore()	{
+		System.out.println("System files restored.");
 	}
 }

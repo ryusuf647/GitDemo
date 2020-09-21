@@ -18,4 +18,9 @@ public class SeleniumTest {
 	public void elementsUI()	{
 		System.out.println("From SeleniumTest.java: elementsUI");
 	}
+	
+	@Test(priority=4)
+	public void testMsg()	{
+		System.out.println("Basic examples using Selenium.");
+	}
 }
