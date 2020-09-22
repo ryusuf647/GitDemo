@@ -1,30 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-09-22T11:28:27 EDT" name="Suite" finished-at="2020-09-22T11:28:27 EDT" duration-ms="31">
+  <suite started-at="2020-09-22T13:16:53 EDT" name="Suite" finished-at="2020-09-22T13:16:53 EDT" duration-ms="34">
     <groups>
       <group name="Smoke Test">
-        <method signature="AppiumTest.mobileLogin()[pri:1, instance:appmavenauto.mavenjava.AppiumTest@4b168fa9]" name="mobileLogin" class="appmavenauto.mavenjava.AppiumTest"/>
-        <method signature="RESTAPITest.SmokeTest()[pri:1, instance:appmavenauto.mavenjava.RESTAPITest@1a84f40f]" name="SmokeTest" class="appmavenauto.mavenjava.RESTAPITest"/>
-        <method signature="SeleniumTest.webLogin()[pri:1, instance:appmavenauto.mavenjava.SeleniumTest@23282c25]" name="webLogin" class="appmavenauto.mavenjava.SeleniumTest"/>
+        <method signature="AppiumTest.mobileLogin()[pri:1, instance:appmavenauto.mavenjava.AppiumTest@6b419da]" name="mobileLogin" class="appmavenauto.mavenjava.AppiumTest"/>
+        <method signature="RESTAPITest.SmokeTest()[pri:1, instance:appmavenauto.mavenjava.RESTAPITest@3b2da18f]" name="SmokeTest" class="appmavenauto.mavenjava.RESTAPITest"/>
+        <method signature="SeleniumTest.webLogin()[pri:1, instance:appmavenauto.mavenjava.SeleniumTest@5906ebcb]" name="webLogin" class="appmavenauto.mavenjava.SeleniumTest"/>
       </group> <!-- Smoke Test -->
     </groups>
-    <test started-at="2020-09-22T11:28:27 EDT" name="Test" finished-at="2020-09-22T11:28:27 EDT" duration-ms="31">
+    <test started-at="2020-09-22T13:16:53 EDT" name="Test" finished-at="2020-09-22T13:16:53 EDT" duration-ms="34">
       <class name="appmavenauto.mavenjava.SeleniumTest">
-        <test-method signature="webLogin()[pri:1, instance:appmavenauto.mavenjava.SeleniumTest@23282c25]" started-at="2020-09-22T11:28:27 EDT" name="webLogin" finished-at="2020-09-22T11:28:27 EDT" duration-ms="0" status="PASS">
+        <test-method signature="webLogin()[pri:1, instance:appmavenauto.mavenjava.SeleniumTest@5906ebcb]" started-at="2020-09-22T13:16:53 EDT" name="webLogin" finished-at="2020-09-22T13:16:53 EDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- webLogin -->
       </class> <!-- appmavenauto.mavenjava.SeleniumTest -->
+      <class name="appmavenauto.mavenjava.e2eTest">
+        <test-method signature="firstTest()[pri:0, instance:appmavenauto.mavenjava.e2eTest@258e2e41]" started-at="2020-09-22T13:16:53 EDT" name="firstTest" finished-at="2020-09-22T13:16:53 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTest -->
+        <test-method signature="fullTest()[pri:0, instance:appmavenauto.mavenjava.e2eTest@258e2e41]" started-at="2020-09-22T13:16:53 EDT" name="fullTest" finished-at="2020-09-22T13:16:53 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fullTest -->
+        <test-method signature="secondTest()[pri:0, instance:appmavenauto.mavenjava.e2eTest@258e2e41]" started-at="2020-09-22T13:16:53 EDT" name="secondTest" finished-at="2020-09-22T13:16:53 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondTest -->
+      </class> <!-- appmavenauto.mavenjava.e2eTest -->
       <class name="appmavenauto.mavenjava.RESTAPITest">
-        <test-method signature="SmokeTest()[pri:1, instance:appmavenauto.mavenjava.RESTAPITest@1a84f40f]" started-at="2020-09-22T11:28:27 EDT" name="SmokeTest" finished-at="2020-09-22T11:28:27 EDT" duration-ms="0" status="PASS">
+        <test-method signature="SmokeTest()[pri:1, instance:appmavenauto.mavenjava.RESTAPITest@3b2da18f]" started-at="2020-09-22T13:16:53 EDT" name="SmokeTest" finished-at="2020-09-22T13:16:53 EDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SmokeTest -->
       </class> <!-- appmavenauto.mavenjava.RESTAPITest -->
       <class name="appmavenauto.mavenjava.AppiumTest">
-        <test-method signature="mobileLogin()[pri:1, instance:appmavenauto.mavenjava.AppiumTest@4b168fa9]" started-at="2020-09-22T11:28:27 EDT" name="mobileLogin" finished-at="2020-09-22T11:28:27 EDT" duration-ms="3" status="PASS">
+        <test-method signature="mobileLogin()[pri:1, instance:appmavenauto.mavenjava.AppiumTest@6b419da]" started-at="2020-09-22T13:16:53 EDT" name="mobileLogin" finished-at="2020-09-22T13:16:53 EDT" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mobileLogin -->

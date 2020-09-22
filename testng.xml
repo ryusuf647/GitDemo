@@ -6,6 +6,7 @@
 	  	<class name = "appmavenauto.mavenjava.AppiumTest"/>
 	  	<class name = "appmavenauto.mavenjava.RESTAPITest"/>
 	  	<class name = "appmavenauto.mavenjava.SeleniumTest"/>
+	  	<class name = "appmavenauto.mavenjava.e2eTest"/>
 	  </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
